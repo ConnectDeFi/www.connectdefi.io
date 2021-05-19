@@ -1,11 +1,9 @@
 .header {
     width: 100%;
     height: 75px;
-    border-bottom: 1px solid #eaeaea;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    //font-family: "Times New Roman";
     font-size: 1.125rem;
 
     img {
@@ -21,4 +19,35 @@
     .active {
         font-weight: bold;
     }
+}
+
+.headers{
+    position:fixed;
+    top:40px;
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    background-color:white;
+}
+
+
+.logo{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.logoImg{
+    width:60px;
+}
+
+.topHeader{
+    position:fixed;
+    top:0;
+    display:flex;
+    width:100%;
+    color:gray;
+    justify-content:flex-end;
+    border-bottom: 1px solid #f7f7f7;
+    background-color:white;
+    z-index:10;
 }
