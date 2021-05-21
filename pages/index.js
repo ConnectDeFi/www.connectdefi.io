@@ -12,6 +12,8 @@ import AccountTreeIcon from '@material-ui/icons/AccountTree';
 import CenterFocusWeakIcon from '@material-ui/icons/CenterFocusWeak';
 import LayersIcon from '@material-ui/icons/Layers';
 import BubbleChartIcon from '@material-ui/icons/BubbleChart';
+import CheckBoxIcon from '@material-ui/icons/CheckBox';
+import CheckIcon from '@material-ui/icons/Check';
 
 export default function Home() {
     return (
@@ -171,6 +173,209 @@ export default function Home() {
                                 various Ethereum standards, and various other
                                 public blockchains.
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={css.fourthSection}>
+                <h1 className={css.fourthSectionTitle}>
+                    Operational Framework
+                </h1>
+                <h5 className={css.fourthSectionSubTitle}>
+                    The ConnectDeFi platform is powered by Polkadot Network.
+                </h5>
+                <div className={css.fourthSectionContent}>
+                    <div className={css.fourthSectionContentPart1}>
+                        <h3>Benefits of Building on the Polkadot Network </h3>
+                        <div className={css.fourthSectionContentPart1Headers}>
+                            <div className={css.fourthSectionContentPart1Icons}>
+                                <CheckBoxIcon
+                                    className={css.fourthSectionContentIcons}
+                                />
+                            </div>
+                            <div className={css.fourthSectionContentPart1Title}>
+                                True Interoperability
+                            </div>
+                        </div>
+                        <div className={css.fourthSectionContentPart1Paragraph}>
+                            <p>
+                                {' '}
+                                There are multiple methods to achieve
+                                interoperability but Polkadot is unparalleled in
+                                this area. The structure includes a central
+                                relay chain that all individual blockchains
+                                connect to, the parachains run in parallel,
+                                while also utilizing bridges that connect to
+                                blockchains that do not use Polkadot protocols.
+                            </p>
+                        </div>
+                        <div className={css.fourthSectionContentPart1Headers}>
+                            <div className={css.fourthSectionContentPart1Icons}>
+                                <CheckBoxIcon
+                                    className={css.fourthSectionContentIcons}
+                                />
+                            </div>
+                            <div className={css.fourthSectionContentPart1Title}>
+                                Economic Scalability:
+                            </div>
+                        </div>
+                        <div className={css.fourthSectionContentPart1Paragraph}>
+                            <p>
+                                Polkadot achieves high scalability by enabling a
+                                common set of validators to secure multiple
+                                blockchains. This shared security strategy is
+                                reliable compared to first generation smart
+                                contract platforms such as Ethereum 1.0 that is
+                                prone to significant network congestion and
+                                scaling frictions.
+                            </p>
+                        </div>
+                        <div className={css.fourthSectionContentPart1Headers}>
+                            <div className={css.fourthSectionContentPart1Icons}>
+                                <CheckBoxIcon
+                                    className={css.fourthSectionContentIcons}
+                                />
+                            </div>
+                            <div className={css.fourthSectionContentPart1Title}>
+                                Open-Source
+                            </div>
+                        </div>
+                        <div className={css.fourthSectionContentPart1Paragraph}>
+                            <p>
+                                Polkadot Network is powered by Substrate, an
+                                open-source framework that allows for building
+                                configurable blockchains in a minimal time.
+                            </p>
+                        </div>
+                        <div className={css.fourthSectionContentPart1Headers}>
+                            <div className={css.fourthSectionContentPart1Icons}>
+                                <CheckBoxIcon
+                                    className={css.fourthSectionContentIcons}
+                                />
+                            </div>
+                            <div className={css.fourthSectionContentPart1Title}>
+                                Decentralized Governance
+                            </div>
+                        </div>
+                        <div className={css.fourthSectionContentPart1Paragraph}>
+                            <p>
+                                Polkadot’s governance is based on a
+                                Decentralized Autonomous Organization (DAO),
+                                which democratically confers on shareholders the
+                                rights to form a consensus on critical
+                                decisions.
+                            </p>
+                        </div>
+                    </div>
+                    <div className={css.fourthSectionContentPart2}>
+                        <img src="./polkadot_img.png" />
+                    </div>
+                </div>
+            </div>
+            <div className={css.fifthSection}>
+                <div className={css.fifthSectionContent}>
+                    <div className={css.fifthSectionContentPart1}>
+                        <h1 className={css.fifthSectionContentPart1Title}>
+                            Token &
+                        </h1>
+                        <p className={css.fifthSectionContentPart1Paragraph}>
+                            <span className={css.fifthSectionInnerTitleHolder}>
+                                <span
+                                    className={css.fifthSectionInnerTitleLine}
+                                ></span>
+                                <span className={css.fifthSectionInnerTitle}>
+                                    Token
+                                </span>
+                            </span>
+                            The platform issues its own native utility token,
+                            $CDF. This token powers the entire ConnectDeFi
+                            ecosystem, where it’s used for transaction fees and
+                            incentives, as well as governance.
+                        </p>
+                    </div>
+                    <div className={css.fifthSectionContentPart2}>
+                        <h1 className={css.fifthSectionContentPart2Title}>
+                            Governance
+                        </h1>
+                        <p className={css.fifthSectionContentPart2Paragraph}>
+                            The platform issues its own native utility token,
+                            $CDF. This token powers the entire ConnectDeFi
+                            ecosystem, where it’s used for transaction fees and
+                            incentives, as well as governance.Examples of such
+                            decisions include:
+                        </p>
+                        <div className={css.fifthSectionContentPart2Footer}>
+                            <div
+                                className={
+                                    css.fifthSectionContentPart2FooterInner
+                                }
+                            >
+                                <CheckIcon className={css.fifthSectionIcons} />
+                                <div
+                                    className={
+                                        css.fifthSectionContentPart2FooterInnerTitle
+                                    }
+                                >
+                                    Proposals and voting
+                                </div>
+                            </div>
+                            <div
+                                className={
+                                    css.fifthSectionContentPart2FooterInner
+                                }
+                            >
+                                <CheckIcon className={css.fifthSectionIcons} />
+                                <div
+                                    className={
+                                        css.fifthSectionContentPart2FooterInnerTitle
+                                    }
+                                >
+                                    Adjusting yield distribution and interest
+                                    rates
+                                </div>
+                            </div>
+                            <div
+                                className={
+                                    css.fifthSectionContentPart2FooterInner
+                                }
+                            >
+                                <CheckIcon className={css.fifthSectionIcons} />
+                                <div
+                                    className={
+                                        css.fifthSectionContentPart2FooterInnerTitle
+                                    }
+                                >
+                                    Review of other important rules
+                                </div>
+                            </div>
+                            <div
+                                className={
+                                    css.fifthSectionContentPart2FooterInner
+                                }
+                            >
+                                <CheckIcon className={css.fifthSectionIcons} />
+                                <div
+                                    className={
+                                        css.fifthSectionContentPart2FooterInnerTitle
+                                    }
+                                >
+                                    Modifying the DAO Structure
+                                </div>
+                            </div>
+                            <div
+                                className={
+                                    css.fifthSectionContentPart2FooterInner
+                                }
+                            >
+                                <CheckIcon className={css.fifthSectionIcons} />
+                                <div
+                                    className={
+                                        css.fifthSectionContentPart2FooterInnerTitle
+                                    }
+                                >
+                                    Suggesting new features to be implemented
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
