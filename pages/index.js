@@ -298,10 +298,9 @@ export default function Home() {
                             Governance
                         </h1>
                         <p className={css.fifthSectionContentPart2Paragraph}>
-                            The platform issues its own native utility token,
-                            $CDF. This token powers the entire ConnectDeFi
-                            ecosystem, where it’s used for transaction fees and
-                            incentives, as well as governance.Examples of such
+                            ConnectDeFi is a fully decentralized and
+                            community-led platform; hence the DAO makes all
+                            major decisions for the platform. Examples of such
                             decisions include:
                         </p>
                         <div className={css.fifthSectionContentPart2Footer}>
