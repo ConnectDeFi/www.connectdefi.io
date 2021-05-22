@@ -11,8 +11,7 @@ library.add(fab, faFacebookF, faTwitter);
 export function Footer({ children }) {
     return (
         <footer className={css.footer}>
-            ConnectDeFi &copy; 2021 ConnectDeFi | Disclaimer | Privacy | Cookie
-            Settings
+            ConnectDeFi &copy; 2021 ConnectDeFi
         </footer>
     );
 }

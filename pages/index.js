@@ -18,7 +18,7 @@ import CheckIcon from '@material-ui/icons/Check';
 export default function Home() {
     return (
         <Page>
-            <div className={css.firstSection}>
+            <div id="home" className={css.firstSection}>
                 <div className={css.firstSectionTitle}>
                     <h1 className={css.title}>ConnectDeFi</h1>
                     <h2 className={css.firstSectionSubTitle}>
@@ -27,7 +27,7 @@ export default function Home() {
                     <button className={css.startButton}>Get Started > </button>
                 </div>
             </div>
-            <div className={css.secondSection}>
+            <div id="aboutus" className={css.secondSection}>
                 <div className={css.secondSectionTitle}>
                     <h1 className={css.secondSectionTitleH1}>Who we are?</h1>
                     <div className={css.secondSectionWho}>
@@ -111,7 +111,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className={css.thirdSection}>
+            <div id="services" className={css.thirdSection}>
                 <h1 className={css.thirdSectionTitle}>Our Services</h1>
                 <div className={css.thirdSectionContent}>
                     <div className={css.thirdSectionContentPart1}>
@@ -177,12 +177,12 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className={css.fourthSection}>
+            <div id="framework" className={css.fourthSection}>
                 <h1 className={css.fourthSectionTitle}>
                     Operational Framework
                 </h1>
                 <h5 className={css.fourthSectionSubTitle}>
-                    The ConnectDeFi platform is powered by Polkadot Network.
+                    The ConnectDeFi platform is powered by the Polkadot Network.
                 </h5>
                 <div className={css.fourthSectionContent}>
                     <div className={css.fourthSectionContentPart1}>
@@ -377,6 +377,136 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className={css.sixthSection}>
+                <h1 className={css.sixthSectionTitle}>Token Metrics</h1>
+                <h3 className={css.sixthSectionSubTitle}>
+                    1 billion $CDFCONNECT tokens will be minted at TGE.
+                </h3>
+                <div className={css.sixthSectionContent}>
+                    <div className={css.sixthSectionContentValues}>
+                        <div className={css.sixthSectionContentPercent}>
+                            40%
+                        </div>
+                        <div className={css.sixthSectionContentTitle}>
+                            Community incentives and farming allocation
+                        </div>
+                    </div>
+                    <div className={css.sixthSectionContentValues}>
+                        <div className={css.sixthSectionContentPercent}>
+                            12%
+                        </div>
+                        <div className={css.sixthSectionContentTitle}>
+                            Token Sale
+                        </div>
+                    </div>
+                    <div className={css.sixthSectionContentValues}>
+                        <div className={css.sixthSectionContentPercent}>
+                            17%
+                        </div>
+                        <div className={css.sixthSectionContentTitle}>
+                            Team members
+                        </div>
+                    </div>
+                    <div className={css.sixthSectionContentValues}>
+                        <div className={css.sixthSectionContentPercent}>
+                            10%
+                        </div>
+                        <div className={css.sixthSectionContentTitle}>
+                            Marketing
+                        </div>
+                    </div>
+                    <div className={css.sixthSectionContentValues}>
+                        <div className={css.sixthSectionContentPercent}>3%</div>
+                        <div className={css.sixthSectionContentTitle}>
+                            Advisors
+                        </div>
+                    </div>
+                    <div className={css.sixthSectionContentValues}>
+                        <div className={css.sixthSectionContentPercent}>
+                            18%
+                        </div>
+                        <div className={css.sixthSectionContentTitle}>
+                            Future project development
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="roadmap" className={css.seventhSection}>
+                <h1 className={css.seventhSectionTitle}>Roadmap</h1>
+                <div className={css.seventhSectionBorder}></div>
+                <div className={css.seventhSectionContents}>
+                    <div className={css.seventhSectionContentPart1}>
+                        <h5 className={css.seventhSectionContentPart1Detail}>
+                            Team Establishment
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart1Detail}>
+                            Feasibility with regards to roadmap targets
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart1Detail}>
+                            Official website online
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart1Detail}>
+                            Refinement of ConnectDeFi Architecture
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart1Detail}>
+                            Initial Marketing Activities
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart1Detail}>
+                            Asset management security Audit
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart1Detail}>
+                            Initialization of Development: Liquidity and DEX
+                            aggregators
+                        </h5>
+                    </div>
+                    <div className={css.seventhSectionContentPart2}>
+                        <h5 className={css.seventhSectionContentPart2Detail}>
+                            Conceptualization of the Idea
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart2Detail}>
+                            Initial feasibility and testing of concept
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart2Detail}>
+                            Feature architecture and rollout timelines
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart2Detail}>
+                            Private sale fundraising round
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart2Detail}>
+                            Development of the Asset/Portfolio management
+                            tool(s)
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart2Detail}>
+                            Launch of Asset Management tool MVP
+                        </h5>
+                        <h5 className={css.seventhSectionContentPart2Detail}>
+                            Updated landing page app (Asset Management tool)
+                        </h5>
+                    </div>
+                </div>
+                <div className={css.seventhSectionMore}>
+                    <h6 className={css.seventhSectionMoreValue}>More... </h6>
+                </div>
+            </div>
+            <div id="contact" className={css.eighthSection}>
+                <div className={css.eighthSectionPanel}>
+                    <h3 className={css.eighthSectionPanelTitle}>
+                        Join us in building the efficiency of decentralized
+                        finance together!
+                    </h3>
+                    <p>
+                        The referral program aims to drive widespread adoption
+                        of the platform by rewarding users accordingly. Anyone
+                        can take advantage of this program by generating unique
+                        links to invite others.
+                    </p>
+                    <p>
+                        By joining this lucrative referral program, you help
+                        promote not just the platform, but the entire DeFi
+                        ecosystem.
+                    </p>
                 </div>
             </div>
         </Page>
