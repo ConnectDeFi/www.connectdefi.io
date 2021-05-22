@@ -9,9 +9,10 @@ import css from '../styles/footer.module.scss';
 library.add(fab, faFacebookF, faTwitter);
 
 export function Footer({ children }) {
+    const currentYear = new Date().getFullYear();
     return (
         <footer className={css.footer}>
-            ConnectDeFi &copy; 2021 ConnectDeFi
+            &copy; ConnectDeFi 2014 - {currentYear}
         </footer>
     );
 }
