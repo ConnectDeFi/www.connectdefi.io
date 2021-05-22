@@ -24,7 +24,11 @@ export default function Home() {
                     <h2 className={css.firstSectionSubTitle}>
                         Fully decentralized and community-led platform.
                     </h2>
-                    <button className={css.startButton}>Get Started > </button>
+                    <button className={css.startButton}>
+                        <a className={css.startButtonLink} href="#aboutus">
+                            Get Started >
+                        </a>{' '}
+                    </button>
                 </div>
             </div>
             <div id="aboutus" className={css.secondSection}>
