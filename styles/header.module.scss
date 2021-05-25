@@ -24,7 +24,7 @@
 .headers{
     z-index:100;
     position:fixed;
-    top:40px;
+    top:0px;
     display:flex;
     justify-content:space-between;
     width:100%;
@@ -51,4 +51,93 @@
     border-bottom: 1px solid #f7f7f7;
     background-color:white;
     z-index:10;
+}
+
+.smallHeader{
+    display: none !important;
+}
+.headerLeftImg{
+    width: 70px;
+    height: 70px;
+}
+.smallHeaderHidden{
+    display: none !important;
+}
+@media screen and (max-width:870px) {
+    .logotitle{
+        display: none;
+    }
+    .header{
+        display: none !important;
+    }
+    .smallMenu{
+        display: block !important;
+        cursor: pointer;
+        background-color: white !important;
+        border:none;
+        height: 0px;
+    }
+    .smallHeaderHidden{
+        .smallHeader{
+            display: none !important;
+        }
+        display: none !important;
+
+    }
+
+    .smallHeader{
+        position: absolute;
+        top:0;
+        left:0;
+        display: flex !important;
+        flex-direction: column;
+        width: 50%;
+        background-color:white !important;
+    }
+    .smallHeader > a{
+        background-color: black;
+        color: white;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-top: 20px;
+        border-bottom: 1px solid lightgray;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .smallHeader >a:hover{
+        color: black;
+        background-color: #f2f2f2;
+        border: 1px solid lightgray;
+        border-radius: 2px;
+    }
+
+    .smallHeader >img{
+        background-color: black;
+        color: white;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-top: 20px;
+        border-bottom: 1px solid lightgray;
+        text-decoration: none;
+        cursor: pointer;
+        object-fit: contain;
+        width: 100%;
+        justify-content: center;
+        height: 110px;
+        padding-right: 61px;
+        }
+        .headerleft{
+            margin-right: 5px;
+        }
+}
+.smallMenu{
+    display: none;
+    margin-top: 10px;
+    float: right;
+    margin-right: 0px !important;
+    box-sizing: border-box;
+}
+.smallMenu:focus{
+    outline:none;
 }

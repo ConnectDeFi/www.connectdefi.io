@@ -1,11 +1,9 @@
 import Head from 'next/head';
-
 import { Header } from '../components/header';
 import { Footer } from '../components/footer';
 import { CommonCSS } from '../components/css/common';
 import { CommonJS } from '../components/js/common';
 import { NonBlockingJS } from '../components/js/nonblocking';
-
 import css from '../styles/common.module.scss';
 import utilsCss from '../styles/utils.module.scss';
 
@@ -18,7 +16,7 @@ export default function Page({ children }) {
                 <meta charSet="utf-8" />
                 <meta
                     name="viewport"
-                    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+                    content="width=device-width, initial-scale=1, shrink-to-fit=Yes"
                 />
 
                 <link rel="icon" href="/favicon.ico" />
