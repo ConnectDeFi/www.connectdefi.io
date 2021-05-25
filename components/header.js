@@ -23,6 +23,20 @@ export function Header({ children }) {
             </Nav.Item>
         );
     });
+    const extItemsJSX = EXT_LINKS.map((link, index) => {
+        const classes = classNames({
+            [css.active]: link.url === router.pathname,
+        });
+        const target = link.url.substring(0, 4) === 'http' ? '_blank' : null;
+        return (
+            <Nav.Item key={`link-${index}`}>
+                <Nav.Link href={link.url} className={classes} target={target}>
+                    {link.name}
+                </Nav.Link>
+            </Nav.Item>
+        );
+    });
+
     const [menu, setMenu] = useState(`${css.smallHeaderHidden}`);
 
     const handleClick = () => {
@@ -35,6 +49,9 @@ export function Header({ children }) {
 
     return (
         <div className={css.headers}>
+            <div className={css.topHeader}>
+                <Nav>{extItemsJSX}</Nav>
+            </div>
             <div className={css.logo}>
                 <img className={css.logoImg} src="/logo.png" />
             </div>
