@@ -666,6 +666,55 @@
     scroll-behavior:smooth;
 }
 
+@media screen and (max-width:1054px){
+    .thirdSection{
+        height:1100px;
+    }
+    .thirdSectionContent{
+        flex-direction:column;
+        align-items:center;
+    }
+    .thirdSectionContentPart1{
+        width:90%;
+        margin-bottom:50px;
+    }
+    .thirdSectionContentPart2{
+        width:90%;
+    }
+    .thirdSectionContentPart3{
+        width:90%;
+        margin-bottom:50px;
+    }
+    .thirdSectionContentPart4{
+        width:90%;
+    }
+}
+
+@media screen and (max-width:1154px){
+    .fourthSection{
+        height:1300px !important;
+    }
+    .fourthSectionTitle, .fourthSectionSubTitle{
+        text-align:center;
+    }
+    .fourthSectionContent{
+        flex-direction:column;
+    }
+    .fourthSectionContentPart1, .fourthSectionContentPart2{
+        width:100% !important;
+    }
+    .fourthSectionContentPart2Img{
+        width:80%;
+        text-align:center;
+        justify-content:center;
+    }
+    .fourthSectionContentPart2{
+        margin-top:0px !important;
+        display:flex;
+        justify-content:center;
+    }
+}
+
 @media screen and (max-width:870px){
     .title{
         font-size:4.5rem;
@@ -690,5 +739,53 @@
     }
     .secondSectionFooterContent{
         width:100% !important;
+    }
+    .fifthSection{
+        height:950px;
+    }
+    .fifthSectionContent{
+        flex-direction:column;
+        width:100% !important;
+    }
+    .fifthSectionContentPart1Paragraph{
+        width:100% !important;
+    }
+    .fifthSectionContentPart1, .fifthSectionContentPart2{
+        width:100%;
+    }
+    .sixthSection{
+        height:800px;
+    }
+    .sixthSectionSubTitle{
+        text-align:center;
+    }
+    .sixthSectionContent{
+        margin-top:10px !important;
+        flex-direction:column;
+        align-items:center;
+    }
+    .sixthSectionContentValues{
+        width:100%;
+        margin-top:20px;
+    }
+    .seventhSection{
+        height:950px;
+    }
+    .seventhSectionBorder{
+        height:800px !important;
+    }
+    .seventhSectionContents{
+        top:6600px !important;
+    }
+    .eighthSection{
+        height:500px;
+    }
+    .eighthSectionPanel{
+        width:90% !important;
+        height:400px !important;
+    }
+    .eighthSectionPanelTitle{
+        margin-left:25px;
+        width:90%;
     }
 }

@@ -272,7 +272,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={css.fourthSectionContentPart2}>
-                        <img src="./polkadot_img.png" />
+                        <img
+                            className={css.fourthSectionContentPart2Img}
+                            src="./polkadot_img.png"
+                        />
                     </div>
                 </div>
             </div>

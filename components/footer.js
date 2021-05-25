@@ -12,7 +12,7 @@ export function Footer({ children }) {
     const currentYear = new Date().getFullYear();
     return (
         <footer className={css.footer}>
-            &copy; ConnectDeFi 2014 - {currentYear}
+            &copy; ConnectDeFi 2021 - {currentYear}
         </footer>
     );
 }
