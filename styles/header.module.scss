@@ -95,6 +95,8 @@
         flex-direction: column;
         width: 50%;
         background-color:white !important;
+        margin-top:-40px;
+        z-index:10;
     }
     .smallHeader > a{
         background-color: black;
