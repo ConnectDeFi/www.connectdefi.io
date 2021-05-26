@@ -1,27 +1,27 @@
 const NAV_LINKS = [
     {
         name: 'Home',
-        url: '/',
+        url: '#home',
     },
     {
-        name: 'Technology',
-        url: '/technology',
+        name: 'About Us',
+        url: '#aboutus',
     },
     {
-        name: 'Community',
-        url: '/community',
+        name: 'Services',
+        url: '#services',
     },
     {
-        name: 'About',
-        url: '/about',
+        name: 'Framework',
+        url: '#framework',
     },
     {
-        name: 'Blog',
-        url: '/blog',
+        name: 'Roadmap',
+        url: '#roadmap',
     },
     {
         name: 'Contact',
-        url: '/contact',
+        url: '#contact',
     },
 ];
 
