@@ -516,6 +516,13 @@ export default function Home() {
                     </p>
                 </div>
             </div>
+            <style global jsx>
+                {`
+                    html {
+                        scroll-behavior: smooth;
+                    }
+                `}
+            </style>
         </Page>
     );
 }
