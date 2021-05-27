@@ -521,10 +521,6 @@ export default function Home() {
                     html {
                         scroll-behavior: smooth;
                     }
-                    html,
-                    body {
-                        overflow-x: hidden !important;
-                    }
                 `}
             </style>
         </Page>
