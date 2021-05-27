@@ -39,7 +39,7 @@
 .title {
     margin: 0;
     line-height: 1.15;
-    font-size: 3rem;
+    font-size: 7vw !important;
     margin-top: 1.5rem;
     text-align: center;
     font-family: Courier New;
@@ -193,6 +193,10 @@
 }
 
 .startButton{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
     border-radius:50px;
     padding:15px 20px 10px 20px;
     background: #8360c3;  /* fallback for old browsers */
@@ -206,6 +210,7 @@
     text-decoration:none;
 }
 .startButtonLink{
+    font-size:2vw;
     text-decoration:none !important;
     color:white !important;
 }
@@ -551,7 +556,7 @@
 .seventhSection{
     background-color:white;
     width:100%;
-    height:800px;
+    margin-bottom:20px;
 }
 .seventhSectionTitle{
     display:flex;
@@ -573,9 +578,9 @@
     margin-left:50%;
 }
 .seventhSectionContents{
-    position:absolute;
+    display:flex;
+    margin-top: -590px;
     z-index:0;
-    top:4350px;
     display:flex;
     width:100%;
     justify-content:space-between;
@@ -668,31 +673,27 @@
 
 @media screen and (max-width:1054px){
     .thirdSection{
-        height:1100px;
+        height:auto;
     }
     .thirdSectionContent{
         flex-direction:column;
         align-items:center;
+        margin-left:0px;
     }
-    .thirdSectionContentPart1{
+    .thirdSectionContentPart1, .thirdSectionContentPart3{
         width:90%;
+        height:auto;
         margin-bottom:50px;
     }
-    .thirdSectionContentPart2{
+    .thirdSectionContentPart2,  .thirdSectionContentPart4{
         width:90%;
-    }
-    .thirdSectionContentPart3{
-        width:90%;
-        margin-bottom:50px;
-    }
-    .thirdSectionContentPart4{
-        width:90%;
+        height:auto;
     }
 }
 
 @media screen and (max-width:1154px){
-    .fourthSection{
-        height:1300px !important;
+    .fourthSection, .fifthSection{
+        margin-bottom:20px;
     }
     .fourthSectionTitle, .fourthSectionSubTitle{
         text-align:center;
@@ -716,14 +717,14 @@
 }
 
 @media screen and (max-width:870px){
-    .title{
-        font-size:4.5rem;
-    }
     .firstSectionSubTitle{
         font-size:1rem;
     }
-    .secondSection{
-        height:1550px;
+    .firstSectionSubTitle{
+        width:auto !important;
+    }
+    .secondSection, .thirdSection, .fourthSection, .fifthSection, .sixthSection, .seventhSection, .eighthSection, .secondSectionTitle{
+        height:auto !important;
     }
     .secondSectionWho{
         flex-direction:column;
@@ -732,16 +733,17 @@
         width:100%;
     }
     .secondSectionWho2, .secondSectionWho2Img{
-        width:100%
+        width:100%;
     }
     .secondSectionFooter{
         flex-direction:column !important;
+        margin-right:0px !important;
     }
     .secondSectionFooterContent{
         width:100% !important;
     }
     .fifthSection{
-        height:950px;
+        height:auto;
     }
     .fifthSectionContent{
         flex-direction:column;
@@ -754,7 +756,7 @@
         width:100%;
     }
     .sixthSection{
-        height:800px;
+        height:auto;
     }
     .sixthSectionSubTitle{
         text-align:center;
@@ -763,29 +765,36 @@
         margin-top:10px !important;
         flex-direction:column;
         align-items:center;
+        width:100% !important;
+        margin-left:0px !important;
+        margin-bottom:20px !important;
     }
     .sixthSectionContentValues{
         width:100%;
         margin-top:20px;
     }
-    .seventhSection{
-        height:950px;
-    }
     .seventhSectionBorder{
         height:800px !important;
     }
     .seventhSectionContents{
-        top:6600px !important;
+        margin-top:-750px;
     }
     .eighthSection{
-        height:500px;
+        margin-bottom:20px;
     }
     .eighthSectionPanel{
         width:90% !important;
-        height:400px !important;
+        height:auto !important;
+        margin-bottom:40px
+    }
+    .eighthSectionPanel >p{
+        width:80% !important;
     }
     .eighthSectionPanelTitle{
         margin-left:25px;
         width:90%;
+    }
+    .startButton{
+        height:auto;
     }
 }
