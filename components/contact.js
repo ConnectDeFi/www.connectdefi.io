@@ -2,9 +2,9 @@ import css from '../styles/common.module.scss';
 
 export default function Contact() {
     return (
-        <div id="contact" className={css.eighthSection}>
-            <div className={css.eighthSectionPanel}>
-                <h3 className={css.eighthSectionPanelTitle}>
+        <div id="contact" className={css.contactSection}>
+            <div className={css.contactSectionPanel}>
+                <h3 className={css.contactSectionPanelTitle}>
                     Join us in building the efficiency of decentralized finance
                     together!
                 </h3>

@@ -5,11 +5,11 @@ import BuildIcon from '@material-ui/icons/Build';
 
 export default function About() {
     return (
-        <div id="aboutus" className={css.secondSection}>
-            <div className={css.secondSectionTitle}>
-                <h1 className={css.secondSectionTitleH1}>Who we are?</h1>
-                <div className={css.secondSectionWho}>
-                    <div className={css.secondSectionWho1}>
+        <div id="aboutus" className={css.aboutSection}>
+            <div className={css.aboutSectionTitle}>
+                <h1 className={css.aboutSectionTitleH1}>Who we are?</h1>
+                <div className={css.aboutSectionWho}>
+                    <div className={css.aboutSectionWho1}>
                         <p>
                             Decentralized Finance (DeFi) has brought with it
                             many benefits to the holistic cryptocurrency
@@ -36,36 +36,34 @@ export default function About() {
                             and multichain decentralized wallet.
                         </p>
                     </div>
-                    <div className={css.secondSectionWho2}>
+                    <div className={css.aboutSectionWho2}>
                         <img
-                            className={css.secondSectionWho2Img}
+                            className={css.aboutSectionWho2Img}
                             src="/abstract.png"
                         />
                     </div>
                 </div>
-                <div className={css.secondSectionFooter}>
-                    <div className={css.secondSectionFooterContent}>
-                        <div className={css.secondSectionFooterTitle}>
-                            <TrendingUpIcon
-                                className={css.secondSectionIcons}
-                            />
+                <div className={css.aboutSectionFooter}>
+                    <div className={css.aboutSectionFooterContent}>
+                        <div className={css.aboutSectionFooterTitle}>
+                            <TrendingUpIcon className={css.aboutSectionIcons} />
                             <h2>Market </h2>
                         </div>
-                        <p className={css.secondSectionFooterContentP}>
+                        <p className={css.aboutSectionFooterContentP}>
                             According to Facts and Factors, the crypto market
                             capitalization is expected to triple in the next
                             five years, driven by the continued push of
                             institutional and retail adoption.
                         </p>
                     </div>
-                    <div className={css.secondSectionFooterContent}>
-                        <div className={css.secondSectionFooterTitle}>
+                    <div className={css.aboutSectionFooterContent}>
+                        <div className={css.aboutSectionFooterTitle}>
                             <ErrorOutlineIcon
-                                className={css.secondSectionIcons}
+                                className={css.aboutSectionIcons}
                             />
                             <h2>Problems </h2>
                         </div>
-                        <p className={css.secondSectionFooterContentP}>
+                        <p className={css.aboutSectionFooterContentP}>
                             There are multiple variables a trader needs to
                             consider for any individual trade, such as safety,
                             price, liquidity, slippage. It is virtually
@@ -74,12 +72,12 @@ export default function About() {
                             aggregator.
                         </p>
                     </div>
-                    <div className={css.secondSectionFooterContent}>
-                        <div className={css.secondSectionFooterTitle}>
-                            <BuildIcon className={css.secondSectionIcons} />
+                    <div className={css.aboutSectionFooterContent}>
+                        <div className={css.aboutSectionFooterTitle}>
+                            <BuildIcon className={css.aboutSectionIcons} />
                             <h2>Solution </h2>
                         </div>
-                        <p className={css.secondSectionFooterContentP}>
+                        <p className={css.aboutSectionFooterContentP}>
                             ConnectDeFi aims to become the go-to decentralized
                             exchange, liquidity aggregator, and more.
                         </p>

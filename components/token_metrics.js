@@ -2,43 +2,45 @@ import css from '../styles/common.module.scss';
 
 export default function Metrics() {
     return (
-        <div className={css.sixthSection}>
-            <h1 className={css.sixthSectionTitle}>Token Metrics</h1>
-            <h3 className={css.sixthSectionSubTitle}>
+        <div className={css.metricsSection}>
+            <h1 className={css.metricsSectionTitle}>Token Metrics</h1>
+            <h3 className={css.metricsSectionSubTitle}>
                 1 billion $CDFCONNECT tokens will be minted at TGE.
             </h3>
-            <div className={css.sixthSectionContent}>
-                <div className={css.sixthSectionContentValues}>
-                    <div className={css.sixthSectionContentPercent}>40%</div>
-                    <div className={css.sixthSectionContentTitle}>
+            <div className={css.metricsSectionContent}>
+                <div className={css.metricsSectionContentValues}>
+                    <div className={css.metricsSectionContentPercent}>40%</div>
+                    <div className={css.metricsSectionContentTitle}>
                         Community incentives and farming allocation
                     </div>
                 </div>
-                <div className={css.sixthSectionContentValues}>
-                    <div className={css.sixthSectionContentPercent}>12%</div>
-                    <div className={css.sixthSectionContentTitle}>
+                <div className={css.metricsSectionContentValues}>
+                    <div className={css.metricsSectionContentPercent}>12%</div>
+                    <div className={css.metricsSectionContentTitle}>
                         Token Sale
                     </div>
                 </div>
-                <div className={css.sixthSectionContentValues}>
-                    <div className={css.sixthSectionContentPercent}>17%</div>
-                    <div className={css.sixthSectionContentTitle}>
+                <div className={css.metricsSectionContentValues}>
+                    <div className={css.metricsSectionContentPercent}>17%</div>
+                    <div className={css.metricsSectionContentTitle}>
                         Team members
                     </div>
                 </div>
-                <div className={css.sixthSectionContentValues}>
-                    <div className={css.sixthSectionContentPercent}>10%</div>
-                    <div className={css.sixthSectionContentTitle}>
+                <div className={css.metricsSectionContentValues}>
+                    <div className={css.metricsSectionContentPercent}>10%</div>
+                    <div className={css.metricsSectionContentTitle}>
                         Marketing
                     </div>
                 </div>
-                <div className={css.sixthSectionContentValues}>
-                    <div className={css.sixthSectionContentPercent}>3%</div>
-                    <div className={css.sixthSectionContentTitle}>Advisors</div>
+                <div className={css.metricsSectionContentValues}>
+                    <div className={css.metricsSectionContentPercent}>3%</div>
+                    <div className={css.metricsSectionContentTitle}>
+                        Advisors
+                    </div>
                 </div>
-                <div className={css.sixthSectionContentValues}>
-                    <div className={css.sixthSectionContentPercent}>18%</div>
-                    <div className={css.sixthSectionContentTitle}>
+                <div className={css.metricsSectionContentValues}>
+                    <div className={css.metricsSectionContentPercent}>18%</div>
+                    <div className={css.metricsSectionContentTitle}>
                         Future project development
                     </div>
                 </div>

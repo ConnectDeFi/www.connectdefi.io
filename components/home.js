@@ -2,10 +2,10 @@ import css from '../styles/common.module.scss';
 
 export default function Home() {
     return (
-        <div id="home" className={css.firstSection}>
-            <div className={css.firstSectionTitle}>
+        <div id="home" className={css.homeSection}>
+            <div className={css.homeSectionTitle}>
                 <h1 className={css.title}>ConnectDeFi</h1>
-                <h2 className={css.firstSectionSubTitle}>
+                <h2 className={css.homeSectionSubTitle}>
                     Fully decentralized and community-led platform.
                 </h2>
                 <button className={css.startButton}>

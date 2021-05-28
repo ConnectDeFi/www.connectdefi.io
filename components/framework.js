@@ -4,25 +4,25 @@ import CheckBoxIcon from '@material-ui/icons/CheckBox';
 
 export default function Framework() {
     return (
-        <div id="framework" className={css.fourthSection}>
-            <h1 className={css.fourthSectionTitle}>Operational Framework</h1>
-            <h5 className={css.fourthSectionSubTitle}>
+        <div id="framework" className={css.frameworkSection}>
+            <h1 className={css.frameworkSectionTitle}>Operational Framework</h1>
+            <h5 className={css.frameworkSectionSubTitle}>
                 The ConnectDeFi platform is powered by the Polkadot Network.
             </h5>
-            <div className={css.fourthSectionContent}>
-                <div className={css.fourthSectionContentPart1}>
+            <div className={css.frameworkSectionContent}>
+                <div className={css.frameworkSectionContentPart1}>
                     <h3>Benefits of Building on the Polkadot Network </h3>
-                    <div className={css.fourthSectionContentPart1Headers}>
-                        <div className={css.fourthSectionContentPart1Icons}>
+                    <div className={css.frameworkSectionContentPart1Headers}>
+                        <div className={css.frameworkSectionContentPart1Icons}>
                             <CheckBoxIcon
-                                className={css.fourthSectionContentIcons}
+                                className={css.frameworkSectionContentIcons}
                             />
                         </div>
-                        <div className={css.fourthSectionContentPart1Title}>
+                        <div className={css.frameworkSectionContentPart1Title}>
                             True Interoperability
                         </div>
                     </div>
-                    <div className={css.fourthSectionContentPart1Paragraph}>
+                    <div className={css.frameworkSectionContentPart1Paragraph}>
                         <p>
                             {' '}
                             There are multiple methods to achieve
@@ -34,17 +34,17 @@ export default function Framework() {
                             Polkadot protocols.
                         </p>
                     </div>
-                    <div className={css.fourthSectionContentPart1Headers}>
-                        <div className={css.fourthSectionContentPart1Icons}>
+                    <div className={css.frameworkSectionContentPart1Headers}>
+                        <div className={css.frameworkSectionContentPart1Icons}>
                             <CheckBoxIcon
-                                className={css.fourthSectionContentIcons}
+                                className={css.frameworkSectionContentIcons}
                             />
                         </div>
-                        <div className={css.fourthSectionContentPart1Title}>
+                        <div className={css.frameworkSectionContentPart1Title}>
                             Economic Scalability:
                         </div>
                     </div>
-                    <div className={css.fourthSectionContentPart1Paragraph}>
+                    <div className={css.frameworkSectionContentPart1Paragraph}>
                         <p>
                             Polkadot achieves high scalability by enabling a
                             common set of validators to secure multiple
@@ -55,34 +55,34 @@ export default function Framework() {
                             frictions.
                         </p>
                     </div>
-                    <div className={css.fourthSectionContentPart1Headers}>
-                        <div className={css.fourthSectionContentPart1Icons}>
+                    <div className={css.frameworkSectionContentPart1Headers}>
+                        <div className={css.frameworkSectionContentPart1Icons}>
                             <CheckBoxIcon
-                                className={css.fourthSectionContentIcons}
+                                className={css.frameworkSectionContentIcons}
                             />
                         </div>
-                        <div className={css.fourthSectionContentPart1Title}>
+                        <div className={css.frameworkSectionContentPart1Title}>
                             Open-Source
                         </div>
                     </div>
-                    <div className={css.fourthSectionContentPart1Paragraph}>
+                    <div className={css.frameworkSectionContentPart1Paragraph}>
                         <p>
                             Polkadot Network is powered by Substrate, an
                             open-source framework that allows for building
                             configurable blockchains in a minimal time.
                         </p>
                     </div>
-                    <div className={css.fourthSectionContentPart1Headers}>
-                        <div className={css.fourthSectionContentPart1Icons}>
+                    <div className={css.frameworkSectionContentPart1Headers}>
+                        <div className={css.frameworkSectionContentPart1Icons}>
                             <CheckBoxIcon
-                                className={css.fourthSectionContentIcons}
+                                className={css.frameworkSectionContentIcons}
                             />
                         </div>
-                        <div className={css.fourthSectionContentPart1Title}>
+                        <div className={css.frameworkSectionContentPart1Title}>
                             Decentralized Governance
                         </div>
                     </div>
-                    <div className={css.fourthSectionContentPart1Paragraph}>
+                    <div className={css.frameworkSectionContentPart1Paragraph}>
                         <p>
                             Polkadot’s governance is based on a Decentralized
                             Autonomous Organization (DAO), which democratically
@@ -91,9 +91,9 @@ export default function Framework() {
                         </p>
                     </div>
                 </div>
-                <div className={css.fourthSectionContentPart2}>
+                <div className={css.frameworkSectionContentPart2}>
                     <img
-                        className={css.fourthSectionContentPart2Img}
+                        className={css.frameworkSectionContentPart2Img}
                         src="./polkadot_img.png"
                     />
                 </div>
