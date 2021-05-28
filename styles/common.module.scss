@@ -476,7 +476,7 @@
     font-size:1.4rem;
     padding-top:150px;
     padding-left:100px;
-    width:500px;
+    width:100%;
     color:white;
 }
 .fifthSectionInnerTitleHolder{
@@ -743,17 +743,26 @@
         width:100% !important;
     }
     .fifthSection{
-        height:auto;
+        height:auto !important;
     }
     .fifthSectionContent{
         flex-direction:column;
         width:100% !important;
     }
-    .fifthSectionContentPart1Paragraph{
-        width:100% !important;
-    }
+
     .fifthSectionContentPart1, .fifthSectionContentPart2{
         width:100%;
+        height:auto;
+    }
+    .fifthSectionContentPart1Title{
+        display:none;
+    }
+    .fifthSectionContentPart1Paragraph{
+        padding-left:10px;
+        padding-top:10px;
+    }
+    .fifthSectionContentPart2Title{
+        padding-left:24px;
     }
     .sixthSection{
         height:auto;
