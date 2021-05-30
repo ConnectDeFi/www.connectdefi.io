@@ -597,23 +597,37 @@
     align-items: center;
     border: 3px solid black;
     border-radius: 20px;
-    height: 620px;
+    height: 100%;
     width: 2px;
     margin-left: 50%;
 }
 .roadmapSectionContents {
     display: flex;
-    margin-top: -590px;
+    margin-top:50px;
     z-index: 0;
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin-left:5%;
     justify-content: space-between;
+}
+.roadmapSectionContentMiddleLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 2px;
+    height: auto;
+    margin-top:-46px;
 }
 .roadmapSectionContentPart1 {
     display: flex;
     width: 51%;
     align-items: flex-end;
     flex-direction: column;
+}
+.roadmapSectionContentPart1Container{
+    display:flex;
 }
 .roadmapSectionContentPart2 {
     display: flex;
@@ -622,6 +636,7 @@
     flex-direction: column;
 }
 .roadmapSectionContentPart1Detail {
+    display:flex;
     background-color: black;
     color: white;
     border-radius: 5px 0px 0px 5px;
@@ -647,7 +662,25 @@
     justify-content: center;
     width: 100%;
 }
-.roadmapSectionMoreValue {
+.roadmapButtonContainer{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-top:-113px;
+    margin-right:-0.4%;
+}
+.roadmapButtonLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 2px;
+    height: 155px;
+    margin-top:-46px;
+}
+.roadmapSectionMoreValue{
+    text-decoration:none;
     background-color: black;
     color: white;
     padding: 5px 10px 5px 10px;
@@ -657,9 +690,22 @@
     font-family: courier;
     cursor: pointer;
 }
-.roadmapSectionMoreValue:hover {
+.roadmapSectionMoreValue:hover, .roadmapSectionLessValue:hover{
+    color:white;
+    text-decoration:none;
     transform: scale(1.1);
-    transition: 250ms ease-out;
+    transition: 250ms ease-out
+}
+
+.roadmapSectionLessValue {
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    font-family: courier;
+    cursor: pointer;
 }
 .contactSection {
     display: flex;
@@ -695,6 +741,7 @@
 #home {
     scroll-behavior: smooth;
 }
+
 
 @media screen and (max-width: 1054px) {
     .serviceSection {
@@ -820,12 +867,6 @@
     .metricsSectionContentValues {
         width: 100%;
         margin-top: 20px;
-    }
-    .roadmapSectionBorder {
-        height: 800px !important;
-    }
-    .roadmapSectionContents {
-        margin-top: -750px;
     }
     .contactSection {
         margin-bottom: 20px;
