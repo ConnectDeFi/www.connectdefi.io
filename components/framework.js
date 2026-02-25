@@ -1,6 +1,6 @@
 import React from 'react';
 import css from '../styles/common.module.scss';
-import CheckBoxIcon from '@material-ui/icons/CheckBox';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
 
 export default function Framework() {
     return (

@@ -1,5 +1,5 @@
 import css from '../styles/common.module.scss';
-import CheckIcon from '@material-ui/icons/Check';
+import CheckIcon from '@mui/icons-material/Check';
 
 export default function Governance() {
     return (

@@ -1,8 +1,8 @@
 import css from '../styles/common.module.scss';
-import AccountTreeIcon from '@material-ui/icons/AccountTree';
-import CenterFocusWeakIcon from '@material-ui/icons/CenterFocusWeak';
-import LayersIcon from '@material-ui/icons/Layers';
-import BubbleChartIcon from '@material-ui/icons/BubbleChart';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import CenterFocusWeakIcon from '@mui/icons-material/CenterFocusWeak';
+import LayersIcon from '@mui/icons-material/Layers';
+import BubbleChartIcon from '@mui/icons-material/BubbleChart';
 
 export default function Services() {
     return (

@@ -1,7 +1,7 @@
 import css from '../styles/common.module.scss';
-import TrendingUpIcon from '@material-ui/icons/TrendingUp';
-import ErrorOutlineIcon from '@material-ui/icons/ErrorOutline';
-import BuildIcon from '@material-ui/icons/Build';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
+import BuildIcon from '@mui/icons-material/Build';
 
 export default function About() {
     return (

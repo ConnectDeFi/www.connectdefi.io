@@ -10,7 +10,7 @@ export default function Home() {
                 </h2>
                 <button className={css.startButton}>
                     <a className={css.startButtonLink} href="#aboutus">
-                        Get Started >
+                        Get Started &gt;
                     </a>{' '}
                 </button>
             </div>
